@@ -13,7 +13,7 @@ body {
 
 .container {
   width: 730px;
-  margin-top: 60px;
+  margin: 60px 0;
   padding: 30px;
   background-color: hsl(0, 0%, 100%);
   box-shadow: 0 0 10px -10px rgba(0, 0, 0, 0.4);
