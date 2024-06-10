@@ -1,0 +1,79 @@
+[
+  {
+    "profile_name": "Mark Webber",
+    "profile_pic": "./assets/images/avatar-mark-webber.webp",
+    "notification": "reacted to your recent post",
+    "post": "My first tournament today!",
+    "group": "",
+    "image": "",
+    "message": "",
+    "date": "1m ago",
+    "read": "false"
+  },
+  {
+    "profile_name": "Angela Gray",
+    "profile_pic": "./assets/images/avatar-angela-gray.webp",
+    "notification": "followed you",
+    "post": "",
+    "group": "",
+    "image": "",
+    "message": "",
+    "date": "5m ago",
+    "read": "false"
+  },
+  {
+    "profile_name": "Jacob Thompson",
+    "profile_pic": "./assets/images/avatar-jacob-thompson.webp",
+    "notification": "has joined your group",
+    "post": "",
+    "group": "Chess Club",
+    "image": "",
+    "message": "",
+    "date": "1 day ago",
+    "read": "false"
+  },
+  {
+    "profile_name": "Rizky Hasanuddin",
+    "profile_pic": "./assets/images/avatar-rizky-hasanuddin.webp",
+    "notification": "sent you a private message",
+    "post": "",
+    "group": "",
+    "image": "",
+    "message": "Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and I'm already having lots of fun and improving my game.",
+    "date": "5 days ago",
+    "read": "true"
+  },
+  {
+    "profile_name": "Kimberly Smith",
+    "profile_pic": "./assets/images/avatar-kimberly-smith.webp",
+    "notification": "commented on your picture",
+    "post": "",
+    "group": "",
+    "image": "./assets/images/image-chess.webp",
+    "message": "",
+    "date": "1 week ago",
+    "read": "true"
+  },
+  {
+    "profile_name": "Nathan Peterson",
+    "profile_pic": "./assets/images/avatar-nathan-peterson.webp",
+    "notification": "reacted to your recent post",
+    "post": "5 end-game strategies to increase your win rate",
+    "group": "",
+    "image": "",
+    "message": "",
+    "date": "2 weeks ago",
+    "read": "true"
+  },
+  {
+    "profile_name": "Anna Kim",
+    "profile_pic": "./assets/images/avatar-anna-kim.webp",
+    "notification": "left the group",
+    "post": "",
+    "group": "Chess Club",
+    "image": "",
+    "message": "",
+    "date": "2 weeks ago",
+    "read": "true"
+  }
+]

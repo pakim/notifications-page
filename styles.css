@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+body {
+  background-color: hsl(210, 60%, 98%);
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  width: 730px;
+  margin-top: 60px;
+  padding: 30px;
+  background-color: hsl(0, 0%, 100%);
+  box-shadow: 0 0 10px -10px rgba(0, 0, 0, 0.4);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header > div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.header h2 {
+  font-weight: 900;
+}
+
+.header span {
+  padding: 2px 10px 4px;
+  background-color: hsl(219, 85%, 26%);
+  color: hsl(0, 0%, 100%);
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: 900;
+}
+
+.header p {
+  color: hsl(219, 12%, 42%);
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.header p:hover {
+  color: hsl(219, 85%, 26%);
+}
+
+.notifications {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.notification {
+  display: flex;
+  align-items: flex-start;
+  padding: 20px;
+  border-radius: 10px;
+  gap: 20px;
+}
+
+.notification.unread {
+  background-color: hsl(210, 60%, 98%);
+}
+
+.notification .profile-pic {
+  width: 45px;
+}
+
+.notification .info {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.notification .date {
+  color: hsl(219, 14%, 63%);
+}
+
+.top span {
+  margin-left: 4px;
+}
+
+.top .profile-name {
+  font-weight: 900;
+  display: inline;
+  cursor: pointer;
+}
+
+.top .profile-name:hover {
+  color: hsl(219, 85%, 26%);
+}
+
+.top .text {
+  color: hsl(224, 21%, 14%);
+  font-weight: 500;
+}
+
+.top .post, .top .group {
+  font-weight: 900;
+  color: hsl(219, 12%, 42%);
+  cursor: pointer;
+}
+
+.top .post:hover, .top .group:hover {
+  color: hsl(219, 85%, 26%);
+}
+
+.top .dot.unread {
+  width: 8px;
+  height: 8px;
+  background-color: hsl(1, 90%, 64%);
+  border-radius: 50%;
+  display: inline-block;
+  margin-bottom: 1px;
+}
+
+.info .message {
+  padding: 15px 20px;
+  border: 1px solid hsl(205, 33%, 90%);
+  font-weight: 500;
+  border-radius: 5px;
+}
+
+.notification .image {
+  width: 45px;
+  margin-left: auto;
+}
+
+@media screen and (max-width: 500px) {
+  body {
+    font-size: 14px;
+  }
+
+  .container {
+    margin: 0;
+    border-radius: 0;
+    padding: 25px 15px;
+  }
+
+  .notification .profile-pic, .notification .image {
+    width: 40px;
+  }
+}
+
+@font-face {
+  font-family: "Plus Jakarta Sans";
+  src: url("./assets/fonts/PlusJakartaSans-VariableFont_wght.ttf");
+}
