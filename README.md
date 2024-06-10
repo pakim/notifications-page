@@ -26,5 +26,5 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: []()
-- Live Site URL: []()
+- Solution URL: [https://github.com/pakim/notifications-page/](https://github.com/pakim/notifications-page/)
+- Live Site URL: [https://pakim.github.io/notifications-page/](https://pakim.github.io/notifications-page/)
